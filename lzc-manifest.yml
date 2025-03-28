@@ -1,0 +1,19 @@
+lzc-sdk-version: "0.1"
+name: moodist
+package: cloud.lazycat.app.moodist
+version: 0.0.2
+description: 免费、高颜值的白噪音网站
+homepage: ""
+author: remvze
+application:
+  subdomain: moodist
+  background_task: false
+  multi_instance: true
+  gpu_accel: false
+  kvm_accel: false
+  usb_accel: false
+  routes:
+    - /=http://moodist.cloud.lazycat.app.moodist.lzcapp:8080/
+services:
+  moodist:
+    image: registry.lazycat.cloud/mxuexxmy/remvze/moodist:8ba7175feef158a3
