@@ -1,0 +1,30 @@
+{
+  "name": "moodist",
+  "package": "cloud.lazycat.app.moodist",
+  "description": "免费、高颜值的白噪音网站",
+  "homepage": "",
+  "author": "remvze",
+  "app_features": [
+    "multi_instance"
+  ],
+  "subdomain": "moodist",
+  "version": "0.0.1",
+  "iconPath": "lzc-icon.png",
+  "composePath": "docker-compose.yml",
+  "unsupported_platforms": [],
+  "lastRouteType": "from_compose",
+  "port_mappings": {
+    "moodist_8080_8080": {
+      "use": true,
+      "type": "http",
+      "path": "/",
+      "targetPath": "/"
+    }
+  },
+  "image_ghcr.io_remvze_moodist": {
+    "originalImage": "ghcr.io/remvze/moodist",
+    "pushTarget": "lazycat",
+    "newImageName": "registry.lazycat.cloud/mxuexxmy/remvze/moodist:6de330c0e9238e37",
+    "timestamp": "2025-01-15T15:13:36.993Z"
+  }
+}
