@@ -1,8 +1,9 @@
+---
 lzc-sdk-version: "0.1"
 name: moodist
 package: cloud.lazycat.app.moodist
 version: 2.4.0
-description: 免费、高颜值的白噪音网站，提供多种自然声音帮助放松和专注
+description: Free, beautiful white noise website for relaxation and focus
 homepage: https://github.com/remvze/moodist
 author: remvze
 locales:
